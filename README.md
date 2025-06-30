@@ -1,0 +1,38 @@
+Just a simple script-language written in Java.
+
+Script example:
+
+```java
+// Vars & simple math
+a = 2 * 6 + 4 / 2 * (6 + 4);
+b = "Hello World!";
+c = true;
+
+// Unar operations
+print "The result is " + a;
+print b;
+print "===================";
+age = input "How old are you?";
+print "Your age is " + age;
+
+// If/Else statement
+if c && (a > 100 || b == "Hello World!") {
+    print "If!";
+} else {
+    print "Else!";
+}
+
+if !c {
+    print "How?";
+}
+
+// While loop
+i = 0;
+while i < 5 {
+    print i;
+    if i == 3 {
+        break;
+    }
+    i = i + 1;
+}
+```
